@@ -1,9 +1,9 @@
-const formValidate= document.getElementById("form-validate")
 let inputName = document.getElementById("inputName");
 let inputEmail = document.getElementById("inputEmail");
 let inputTelefone = document.getElementById("inputTelefone")
 let mensagem = document.getElementById("mensagem")
 let actionButton = document.getElementById("actionButton")
+
 
 function validarForm() {
     if (!inputName.value) {
@@ -12,7 +12,7 @@ function validarForm() {
         return
     }
     else if (!inputEmail.value) {
-        mensagem.innerText = "Por favor, preencha o campo indicado"
+        mensagem.innerText = "Por favor, preencha o campo indicado corretamente"
         inputEmail.style.backgroundColor = "red"
         return
     }

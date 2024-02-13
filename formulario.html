@@ -11,25 +11,24 @@
 <body>
   <section class="container">
     <h1>Cadastrar usuário</h1>
-    <p>
-    <div class="input-single">
+    <div>
+    <div class="inputs">
       <label for="inputName" class="form-label">Nome</label>
       <input type="text" minlength="3" class="form-control" id="inputName" placeholder="Digite o nome completo">
     </div>
-    <div class="input-single">
+    <div class="inputs">
       <label for="inputEmail" class="form-label">E-mail</label>
       <input type="email" minlength="4" class="form-control" id="inputEmail" placeholder="Digite seu e-mail aqui">
     </div>
-    <div class="input-single">
+    <div class="inputs">
       <label for="inputTelefone" class="form-label">Telefone</label>
       <input type="text" minlength="8" class="form-control" id="inputTelefone" placeholder="Digite o seu número aqui">
-      <p id="mensagem"></p>
     </div>
+    <p id="mensagem"></p>
     <div class="botao">
   <button id="actionButton" onclick="validarForm()">Cadastrar</button>
 </div>
-
-</p>
+</div>
 </section>
   <script src="./formulario.js"></script>
 

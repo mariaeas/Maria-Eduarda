@@ -31,26 +31,26 @@ h1 {
 }
 
 p {
-    text-align: center;
     margin: 20px;
 }
 
-.input-single {
+.inputs {
     position: relative;
     margin: 30px 0;
+    font-size: 18px ;
+    color:rgb(31, 5, 31); ;
 }
 
 input {
     width: 100%;
     border: 0;
     border-bottom: 2px solid #ccc;
-    padding: 5px;
+    padding: 6px;
     font-size: 18px;
 }
 
 #actionButton {
     background-color: rgb(31, 5, 31);
-    text-align: center;
     padding: 10px 40px;
     border-radius: 10px;
     color: #ccc;
